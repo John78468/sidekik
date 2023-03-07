@@ -27,6 +27,12 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+
+# permet de gerer les taches de fond
+gem "sidekiq"
+
+# permet de visulalisé les rapports d'erreurs
+gem "sidekiq-failures", "~> 1.0"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
